@@ -17,3 +17,5 @@ if (5 === 5) {
 
 // message is currently available because message is hoisted
 console.log(message);
+
+console.log('');
