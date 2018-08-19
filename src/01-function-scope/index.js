@@ -20,3 +20,5 @@ function startCar2(carId) {
 // console.log(message);
 
 startCar2(123);
+
+console.log('');
