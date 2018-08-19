@@ -1,0 +1,41 @@
+{
+  "name": "ps-js-fundamentals",
+  "version": "1.0.0",
+  "description": "Code for the Pluralsight course JavaScript Fundamentals by Mark Zamoyta",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack",
+    "serve": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/architMahto/ps-js-fundamentals.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Archit Mahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/architMahto/ps-js-fundamentals/issues"
+  },
+  "homepage": "https://github.com/architMahto/ps-js-fundamentals#readme",
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "1.4.0",
+    "css-loader": "0.28.1",
+    "eslint": "^5.3.0",
+    "extract-text-webpack-plugin": "2.0.0",
+    "file-loader": "0.11.1",
+    "rimraf": "^2.6.2",
+    "style-loader": "0.17.0",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
