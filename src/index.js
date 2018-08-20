@@ -5,3 +5,4 @@ import './02-block-scope/index';
 import './03-iife/index';
 import './04-closures/index';
 import './05-this-keyword/index';
+import './06-call-and-apply/index';
